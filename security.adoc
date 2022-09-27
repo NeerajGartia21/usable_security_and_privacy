@@ -1,0 +1,65 @@
+= What is security ?
+
+== Many definitions
+- The protection of data and resources from accidental and
+malicious acts, usually by taking appropriate actions
+...These acts many be modification, destruction, access,
+disclosure or acquisition if not authorized.--ISO/IEC, 1998
+
+- Building Systems to remain dependable in the face of
+malice, error or mischance
+-- Ross Anderson
+
+== Properties of a secure system (CIA model)
+- Confidentiality
+- Integrity
+- Availability
+
+=== few more propererties(Not in CIA model)
+- Authentication
+- Authorzation
+- Accountability
+
+== Security violations in practice
+- External misuse
+- Hardware misuse
+- Masquerading
+- Setting up subsequent misuse
+- Bypassing intended controls
+- Active misuse
+- Passive misuse
+- Inactive misuse
+- Indirect misuse
+
+== How to do basic security analysis for a system?
+=== System model
+- Understand the architecture.
+- Enumurate assets and their value.
+
+=== Threat model
+- Identify potential attackers.
+- Enumurate attackers resource and estimate the number and possibility of attack.
+
+==== Types in threat model
+- Attacker action (active or passive) 
+- Attacker capability 
+- Attacker access (external or internal)
+
+=== Secutiry goals
+- Confidentiality (encryption)
+- Integrity (cryptographic hashes)
+- Authenticity (MAC or keyed hash)
+- Availability (DDoS)
+- Auditability (Blockchain,          tamper-proof-logs)
+- Access control
+- Privacy
+- Plausible deniability
+
+=== Designing systems
+- Security via policy
+- Use cryptography and security primitives
+- Make your system resilient to attack
+- Detection and recovery
+
+== Extra reads
+- Kerckhoffs’s law/Shannon’s maxim (“Enemy knows the system”)
