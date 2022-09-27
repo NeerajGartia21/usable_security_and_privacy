@@ -62,4 +62,4 @@ malice, error or mischance
 - Detection and recovery
 
 == Extra reads
-- Kerckhoffs’s law/Shannon’s maxim (“Enemy knows the system”)
+- https://simple.wikipedia.org/wiki/Kerckhoffs%27s_principle[Kerckhoffs’s law/Shannon’s maxim (“Enemy knows the system”)]
